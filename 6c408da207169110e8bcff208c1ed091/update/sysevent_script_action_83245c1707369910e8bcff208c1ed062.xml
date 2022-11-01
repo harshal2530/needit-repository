@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_843592_needit.overdueNeedItTask</event_name>
+        <name>Update Overdue NeedIt Task Priority</name>
+        <order>100</order>
+        <script><![CDATA[// Set the record priority to 1 - Critical
+current.priority = 1;
+// Update the record in the database
+current.update();]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-01 12:36:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83245c1707369910e8bcff208c1ed062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Overdue NeedIt Task Priority</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Needit" source="x_843592_needit">6c408da207169110e8bcff208c1ed091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needit">6c408da207169110e8bcff208c1ed091</sys_scope>
+        <sys_update_name>sysevent_script_action_83245c1707369910e8bcff208c1ed062</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-01 12:36:06</sys_updated_on>
+    </sysevent_script_action>
+</record_update>
